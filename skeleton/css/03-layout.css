@@ -1,7 +1,6 @@
 /* PHASE 3: Layout */
 
 .content {
-  height: 240px;
   width: 900px;
   background: white;
   border-left: 1px solid #ccc;
@@ -14,11 +13,13 @@
 .content-sidebar {
   min-height: 240px;
   width: 240px;
+  float: left;
 }
 
 .content-main {
   min-height: 240px;
   width: 660px;
+  float: left;
 }
 
 .content:before {
