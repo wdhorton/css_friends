@@ -1,1 +1,14 @@
 /* PHASE 9: Forms */
+
+.thumb-size {
+  width: 58px;
+  height: 58px;
+  float: left;
+}
+
+.form-fieldset {
+  width: 540px;
+  height: 350px;
+  background: #eee;
+  float: left;
+}
