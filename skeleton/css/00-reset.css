@@ -6,14 +6,28 @@ section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
 
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  text-align: inherit;
+  color: inherit;
+  text-decoration: inherit;
+
+  background: transparent;
+
+  box-sizing: inherit;
 }
 
 ul {
-
+  list-style: none;
 }
 
 img {
-
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 input[type="password"],
@@ -22,16 +36,18 @@ input[type="text"],
 input[type="submit"],
 textarea,
 button {
-
+  appearance: none;
 }
 
 button,
 input[type="submit"] {
-
+  cursor: pointer;
 }
 
 /* Clearfix */
 
 .group:after {
-
+  content: "";
+  display: block;
+  clear: both;
 }
