@@ -11,15 +11,16 @@
 }
 
 .content-sidebar {
-  min-height: 240px;
-  width: 240px;
+  min-height: 200px;
+  width: 200px;
   float: left;
 }
 
 .content-main {
-  min-height: 240px;
-  width: 660px;
+  min-height: 200px;
+  width: 620px;
   float: left;
+  padding: 20px;
 }
 
 .content:before {
