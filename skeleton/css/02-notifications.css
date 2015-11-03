@@ -17,38 +17,48 @@ li:hover .badge {
   position: absolute;
   width: 235px;
   top: 40px;
+  left: -1px;
   background: #fff;
   color: #000;
   font-size: 14px;
+  overflow: hidden;
 
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 li:hover .notification-list {
   display: block;
 }
 
-.header-list:first-child {
+.header-list > li:first-child {
   position: relative;
 }
 
 .notification-list a {
   padding: 15px, 20px;
   display: block;
+
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
-.notification-list li:nth-child(2) {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+.notification-list li {
+  overflow: hidden;
 }
 
-.notification-list:last-child {
-  border-bottom: 1px solid #ccc;
+.notification-list > li:last-child > a {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  overflow: hidden;
 }
+
+/*.notification-list > li:nth-child(2) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}*/
 
 .notification-list a:hover {
   background: #eee;

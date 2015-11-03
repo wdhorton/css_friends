@@ -11,6 +11,8 @@ body {
   background: #f00;
   color: #fff;
   border-bottom: 1px solid #ccc;
+  z-index: 1;
+  position: relative;
 }
 
 .header-nav {
@@ -40,6 +42,6 @@ body {
   display: block;
 }
 
-.header li:hover {
+.header-list > li:hover {
   background: #000;
 }
