@@ -40,6 +40,6 @@ body {
   display: block;
 }
 
-.header a:hover {
+.header li:hover {
   background: #000;
 }

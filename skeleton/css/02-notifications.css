@@ -1,1 +1,55 @@
 /* PHASE 2: Notifications */
+
+.badge {
+  color: #fff;
+  background: #000;
+  border-radius: 50%;
+  padding: 1px 6px;
+  font-size: 14px;
+}
+
+li:hover .badge {
+  background: #f00;
+}
+
+.notification-list {
+  display: none;
+  position: absolute;
+  width: 235px;
+  top: 40px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+
+}
+
+li:hover .notification-list {
+  display: block;
+}
+
+.header-list:first-child {
+  position: relative;
+}
+
+.notification-list a {
+  padding: 15px, 20px;
+  display: block;
+}
+
+.notification-list li:nth-child(2) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.notification-list:last-child {
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.notification-list a:hover {
+  background: #eee;
+}
